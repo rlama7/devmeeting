@@ -2,9 +2,9 @@ export type Event = {
   image: string; // path under public/, e.g. /images/event1.png
   title: string;
   slug: string; // url-friendly identifier
-  location?: string;
+  location: string;
   date: string; // YYYY-MM-DD
-  time?: string; // HH:MM (local time) or timezone-aware string
+  time: string; // HH:MM (local time) or timezone-aware string
 };
 
 export const events: Event[] = [
